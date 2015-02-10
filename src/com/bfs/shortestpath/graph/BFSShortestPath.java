@@ -98,6 +98,7 @@ public class BFSShortestPath {
 			if(graph.isNeighbor(currentSrc, node))
 			{
 				shortestPathList.add(node);
+				currentSrc = node;
 				if(node == source)
 					break;
 			}
