@@ -1,7 +1,7 @@
 BFS - Shortest Path 
 =======================
 
-BFS shortest for undirected graph
+BFS shortest path for undirected graph
 
 ##Complexity
 	  Worst case performance  O (|E|)
@@ -9,7 +9,7 @@ BFS shortest for undirected graph
 
 ##Install
 
-This library has the implementaion of BFS to find the shortest path in a undirected graph 
+This library has the implementation of BFS to find the shortest path in an undirected graph 
 G=[V,E].The following code snippet shows how to get the shortest path,
 
     	BFSShortestPath.findShortestPath();
