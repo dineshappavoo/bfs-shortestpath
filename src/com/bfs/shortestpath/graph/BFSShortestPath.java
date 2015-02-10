@@ -81,9 +81,9 @@ public class BFSShortestPath {
 	 *  	if isNeighbor(G,currentSrc,u)
 	 *  		L <- add(L, u)
 	 *  		currentSrc = node;
-				if node == source
-					break;
-		return L
+	 *  		if node == source
+	 *  			break;
+	 *  return L
 	 *  		
 	 * 
 	 * 
